@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>CV NdolouJacques</title>
+		<meta name="description" content="Penelope - CV / Resume / Personal Website Template by Hencework" />
+		<meta name="keywords" content="Penelope, responsive resume template, cv template, multipurpose, responsive template, vcard, html5 template, themeforest, bootstrap, html5, creative, landing page, sass, clean, design, modern, angular js" />
+		<meta name="author" content="Hencework"/>
+		
+		<!--Favicon-->
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		
+		<!--Fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Hind:400,500,300,600' rel='stylesheet' type='text/css'>
+		
+		<!--CSS-->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<!-- update the version number as needed -->
+		<script defer src="/__/firebase/9.15.0/firebase-app-compat.js"></script>
+		<!-- include only the Firebase features as you need -->
+		<script defer src="/__/firebase/9.15.0/firebase-auth-compat.js"></script>
+		<script defer src="/__/firebase/9.15.0/firebase-database-compat.js"></script>
+		<script defer src="/__/firebase/9.15.0/firebase-firestore-compat.js"></script>
+		<script defer src="/__/firebase/9.15.0/firebase-functions-compat.js"></script>
+		<script defer src="/__/firebase/9.15.0/firebase-messaging-compat.js"></script>
+		<script defer src="/__/firebase/9.15.0/firebase-storage-compat.js"></script>
+		<script defer src="/__/firebase/9.15.0/firebase-analytics-compat.js"></script>
+		<script defer src="/__/firebase/9.15.0/firebase-remote-config-compat.js"></script>
+		<script defer src="/__/firebase/9.15.0/firebase-performance-compat.js"></script>
+		<script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+
+	</head>
+	<body id="body" data-ng-app="contactApp">
+		
+		<!--Fixed Bg Image-->
+		<div class="fixed-bg"></div>
+		<div class="fixed-bg-overlay"></div>
+		<!--/Fixed Bg Image-->
+		
+		<!--Preloader-->
+		<div id="pre_load" class="preloader-it">
+			<div id="la_anim" class="la-anim-1"></div>
+		</div>
+		<!--/Preloader-->
+		
+		<!--Container-->
+		<div class="container-fluid">
+			<div class="row">
+				<div id="vertical_nav_wrap" class="col-lg-4 col-xs-12 pad-zero vertical-nav-wrap">
+					
+					<!--Navigation-->
+					<nav class="navbar navbar-default vertical-nav" role="navigation">
+						<div class="navbar-header">
+							<button type="button" class="btn btn-default navbar-toggle" data-toggle="collapse" 
+								data-target="#navbar_collapse">
+							<span class="mask"></span>
+							<span class="btn-label">
+							<span class="pe-7s-menu"></span>
+							</span>
+							</button>
+						</div>
+						<div class="collapse navbar-collapse" id="navbar_collapse">
+							<ul class="nav navbar-nav">
+								<li><a data-scroll href="#body"></a><span>profil</span></li>
+								<li><a data-scroll href="#services_sec"></a><span>services</span></li>
+								<li><a data-scroll href="#skill_sec"></a><span>skills</span></li>
+								<li><a data-scroll href="#work_sec"></a><span>réalisations</span></li>
+								<li><a data-scroll href="#edu_sec"></a><span>éducation</span></li>
+								<li><a data-scroll href="#exp_sec"></a><span>experiences</span></li>
+								<li><a data-scroll href="#achivement_sec"></a><span>distinction</span></li>
+								<li><a data-scroll href="#contact_sec"></a><span>contact</span></li>
+							</ul>
+						</div>
+					</nav>
+					<!--/Navigation-->
+					
+				</div>
+				<div class="col-lg-8 col-xs-12 pad-zero">
+					
+					<!--Header-->
+					<header>
+						<div class="header-wrap col-lg-10 center-div">
+							<div class="float-left name">
+								<a data-scroll href="#body">
+								<span>
+								NDOLOU Jacques 
+								</span>
+								</a>	
+							</div>
+							<div class="float-right social-download-wrap">
+								<a href="img/CV Jacques-Jr NDOLOU.pdf"download class="btn btn-default float-left">
+								<span class="mask"></span>
+								<span class="btn-label">
+								<b>download resume</b>
+								<span class="icon pe-7s-download"></span>
+								</span>
+								</a>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</header>
+					<!--/Header-->
+					
+					<!--Main Content-->
+					<div id="main_content" class="content-block margin-top-150 margin-top-sm-70 margin-top-xs-50">
+					
+						<!--Introduction Sec-->
+						<section id="intro_content_sec"  class="col-lg-10 col-md-11 col-sm-11 center-div intro-content-wrap sec-pad">
+							<div class="person-img margin-bottom-xs"></div>
+							<h1>
+								Bonjour <span id="typed"></span>
+							</h1>
+							<h6>
+								à propos
+							</h6>
+							<p class="pad-bottom-35 wow fadeInUp" data-wow-duration=".6s">
+								Développeur Front-end. Le Javascript, l'ES6 et le Typescript
+sont les univers dans lesquels j'exerce. Angular et Express sont les frameworks sur lesquels j'ai pu obtenir de belles expériences qui me permettent aujourd'hui de comprendre l’interaction Front-end/Back-end ansi que la conception de sites web et web mobiles, mettre en place une architecture technique front-end et exploiter RXJS. J'ai également explorer le langage Javascript côté serveur avec Node JS.
+Enfin, j'ai l'habitude de travailler en équipe avec la méthode Agile Scrum.
+							</p>
+							<p class="wow fadeInUp" data-wow-duration=".4s">
+								J'aime me développer pour développer mieux. Je comprends l'importance d'avoir des <a class="goto-social" href="#" target="_blank">individualités fortes</a> pour avoir des <a href="#" class="goto-social" target="_blank">équipes fortes</a>. Experience my photography skills on <a href="#" class="goto-social" target="_blank">Instagram</a> & <a class="goto-social" href="#" target="_blank">Flickr</a>.
+							</p>
+						</section>
+						<!--/Introduction Sec-->
+						
+						<hr class="separater-hr"/>
+						
+						<!--WhatWeDo Sec-->
+						<section id="services_sec"  class="col-lg-10 col-md-11 col-sm-11 center-div services-icon-wrap  sec-pad-top sec-pad-bottom-xs">
+							<h6>Ce que je fais</h6>
+							<div class="row">
+								<div class="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft" data-wow-duration=".4s" data-wow-delay="0s">
+									<span class="icon pe-7s-graph3"></span>
+									<span class="key-fact">
+									ANALYSE		
+									</span>
+								</div>
+								<div class="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft" data-wow-duration=".4s" data-wow-delay=".1s">
+									<span class="icon pe-7s-browser"></span>
+									<span class="key-fact">
+									PROGRAMATION		 
+									</span>
+								</div>
+								<div class="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft" data-wow-duration=".4s" data-wow-delay=".2s">
+									<span class=" icon pe-7s-tools"></span>
+									<span class="key-fact">
+									TESTS	
+									</span>
+								</div>
+								<div class="col-sm-3 col-xs-6 margin-bottom-sm icon-wrap wow fadeInLeft" data-wow-duration=".4s" data-wow-delay=".3s">
+									<span class="icon pe-7s-note2"></span>
+									<span class="key-fact">
+									VEILLE TECHNOLOGIQUE
+									</span>
+								</div>
+							</div>
+						</section>
+						<!--/WhatWeDo Sec-->
+						
+						<hr class="separater-hr"/>
+						
+						<!--Skills Sec-->
+						<section id="skill_sec"  class="col-lg-10 col-md-11 col-sm-11 center-div skills-wrap  sec-pad-top sec-pad-bottom-xs">
+							<h6>skills</h6>
+							<p class="wow fadeInUp" data-wow-duration=".4s">En tant que développeur, je comprends l'importance d'avoir une architecture solide avec de bonnes fondations à laquelle j'ajoute ma créativité, essayant de converger au mieux entre le besoin du client et les impératifs techniques. J'aime faire preuve de pensée critique, d'empathie et de créativité, j'aime élever ma vison des choses et ma perspective au-delà d'un simple rôle de développeur pour proposer des solutions viables et percutantes.</p>
+							<div class="row margin-top-40">
+								<div class="col-sm-5 margin-bottom-sm">
+									<span class="progress-cat">HTML/CSS</span>
+									<div class="progress-bar-graph">
+										<div class="progress-bar-wrap">
+											<div class="bar-wrap">
+												<span data-width="97">
+												<strong><i>80</i>%</strong>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-offset-1 col-sm-5 margin-bottom-sm">
+									<span class="progress-cat">SASS</span>
+									<div class="progress-bar-graph">
+										<div class="progress-bar-wrap">
+											<div class="bar-wrap">
+												<span data-width="98">
+												<strong><i>70</i>%</strong>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<div class="col-sm-5 margin-bottom-sm">
+									<span class="progress-cat">JAVA SCRIPT</span>
+									<div class="progress-bar-graph">
+										<div class="progress-bar-wrap">
+											<div class="bar-wrap">
+												<span data-width="100">
+												<strong><i>70</i>%</strong>
+												</span>	
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-offset-1 col-sm-5 margin-bottom-sm">
+									<span class="progress-cat">TYPESCRIPT</span>
+									<div class="progress-bar-graph">
+										<div class="progress-bar-wrap">
+											<div class="bar-wrap">
+												<span data-width="90">
+												<strong><i>85</i>%</strong>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<div class="col-sm-5 margin-bottom-sm">
+									<span class="progress-cat"> EXPRESS</span>
+									<div class="progress-bar-graph">
+										<div class="progress-bar-wrap">
+											<div class="bar-wrap">
+												<span data-width="86">
+												<strong><i>60</i>%</strong>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-offset-1 col-sm-5 margin-bottom-sm">
+									<span class="progress-cat">NODE JS</span>
+									<div class="progress-bar-graph">
+										<div class="progress-bar-wrap">
+											<div class="bar-wrap">
+												<div class="bar-wrap">
+													<span data-width="70">
+													<strong><i>60</i>%</strong>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-5 margin-bottom-sm">
+									<span class="progress-cat">MATERIAL</span>
+									<div class="progress-bar-graph">
+										<div class="progress-bar-wrap">
+											<div class="bar-wrap">
+												<span data-width="97">
+												<strong><i>85</i>%</strong>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-offset-1 col-sm-5 margin-bottom-sm">
+									<span class="progress-cat">ANGULAR JS</span>
+									<div class="progress-bar-graph">
+										<div class="progress-bar-wrap">
+											<div class="bar-wrap">
+												<span data-width="98">
+												<strong><i>70</i>%</strong>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</section>
+						<!--/Skills Sec-->
+						
+						<hr class="separater-hr"/>
+						
+						<!--Work Sec-->
+						<!-- <section id="work_sec"  class="col-lg-10 col-md-11 col-sm-11 center-div work-wrap  sec-pad">
+							<h6>Réalisation</h6>
+							<div  class="portfolio-wrap project-gallery padding-sec-lg">
+								<ul id="portfolio" class="portf auto-construct  project-gallery" data-col="2">
+									<li  class="item"   data-src="img/mock1.jpg" data-sub-html="<h6>DESIGN LAB</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>" >
+										<a href="">
+										<img class="img-responsive" src="img/mock1.jpg"  alt="Image description" />
+										<span class="hover-cap">DESIGN LAB</span>
+										</a>
+									</li>
+									<li class="item" data-src="http://www.youtube.com/watch?v=Pq9yPrLWMyU" data-poster="img/mock2.jpg"  data-sub-html="<h6>MODERN WORK</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+										<a href="">
+										<img class="img-responsive" src="img/mock2.jpg"  alt="Image description" />
+										<span class="hover-cap">MODERN WORK</span>
+										</a>
+									</li>
+									<li class="item" data-src="img/mock4.jpg" data-sub-html="<h6>UX PLATFORM</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+										<a href="">
+										<img class="img-responsive" src="img/mock4.jpg"  alt="Image description" />
+										<span class="hover-cap">UX PLATFORM</span>
+										</a>
+									</li>
+									<li class="item" data-src="http://vimeo.com/1084537" data-poster="img/mock3.jpg" data-sub-html="<h6>MONOBRANDING</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+										<a href="">
+										<img class="img-responsive" src="img/mock3.jpg"  alt="Image description" />
+										<span class="hover-cap">MONOBRANDING</span>
+										</a>
+									</li>
+									<li class="item" data-src="img/mock5.jpg" data-sub-html="<h6>FALL/WINTER</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+										<a href="">
+										<img class="img-responsive" src="img/mock5.jpg"  alt="Image description" />	
+										<span class="hover-cap">FALL/WINTER</span>
+										</a>
+									</li>
+									<li class="item" data-html="#video1" data-poster="img/mock6.jpg" data-sub-html="<h6>FANTASTIC MAN</h6><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
+										<a href="">
+										<img class="img-responsive" src="img/mock6.jpg"  alt="Image description" />
+										<span class="hover-cap">FANTASTIC MAN</span>
+										</a>
+									</li>
+								</ul>
+								Hidden video div -->
+								<!-- <div style="display:none;" id="video1">
+									<video class="lg-video-object lg-html5 video-js vjs-default-skin" controls preload="none">
+										<source src="videos/video1.mp4" type="video/webm">
+										<source src="videos/video1.webm" type="video/webm">
+										Your browser does not support HTML5 video.
+									</video>
+								</div>
+							</div> -->
+						</section>
+						<!--/Work Sec-->
+						
+						<hr class="separater-hr"/>
+						
+						<!--Qualfication Sec-->
+						<section id="edu_sec"  class="col-lg-10 col-md-11 col-sm-11 center-div education-wrap  sec-pad">
+							<h6>éducation</h6>
+							<p class="wow fadeInUp" data-wow-duration=".4s">
+								J'ai passé du temps à aquerir du savoir être et du savoir faire à apprendre la conception et le développement Web et le management.  Je compte continuer à me développer car je pense qu’il ne faut jamais arrêter d’apprendre et de passer par un processus d’acquisition de connaissances.
+							</p>
+							<div class="qualfication-wrap">
+								<div class="qualfication first-row wow fadeInUp" data-wow-duration=".4s">
+									<div class="col-sm-2">
+										<span class="row-count"><span>1</span></span>
+									</div>
+									<div class="col-sm-2">
+										<span class="yr-pers vertical-align-pad">2023</span>
+									</div>
+									<div class="col-sm-5">
+										<span class="insti vertical-align-pad">Développeur Web et Web Mobile, Cergy</span>
+									</div>
+									<div class="col-sm-3">
+										<span class="design vertical-align-pad">
+										TP Developpeur WEB Et WEB Mobile
+										</span>
+									</div>
+								</div>
+								<div class="qualfication wow fadeInUp" data-wow-duration=".4s">
+									<div class="col-sm-2">
+										<span class="row-count"><span>2</span></span>
+									</div>
+									<div class="col-sm-2">
+										<span class="yr-pers vertical-align-pad">2022</span>
+									</div>
+									<div class="col-sm-5">
+										<span class="insti vertical-align-pad">Web-Desingner, En ligne</span>
+									</div>
+									<div class="col-sm-3">
+										<span class="design vertical-align-pad">
+										Validation de modules Web-Desingner
+										</span>
+									</div>
+								</div>
+								<div class="qualfication wow fadeInUp" data-wow-duration=".4s">
+									<div class="col-sm-2">
+										<span class="row-count"><span>3</span></span>
+									</div>
+									<div class="col-sm-2">
+										<span class="yr-pers vertical-align-pad">2021</span>
+									</div>
+									<div class="col-sm-5">
+										<span class="insti vertical-align-pad">BTS Management Comercial, Paris 19ème</span>
+									</div>
+									<div class="col-sm-3">
+										<span class="design vertical-align-pad">
+										1ère Année Validé
+										</span>
+									</div>
+								</div>
+								<div class="qualfication-wrap">
+									<div class="qualfication first-row wow fadeInUp" data-wow-duration=".4s">
+										<div class="col-sm-2">
+											<span class="row-count"><span>4</span></span>
+										</div>
+										<div class="col-sm-2">
+											<span class="yr-pers vertical-align-pad">2020</span>
+										</div>
+										<div class="col-sm-5">
+											<span class="insti vertical-align-pad">Théologie, Le Blanc-Mesnil</span>
+										</div>
+										<div class="col-sm-3">
+											<span class="design vertical-align-pad">
+											Diplôme de théologie 
+											</span>
+										</div>
+									</div>
+							</div>
+						</section>
+						<!--/Qualfication Sec-->
+						
+						<hr class="separater-hr"/>
+						
+						<!--Experience Sec-->
+						<section id="exp_sec"  class="col-lg-10 col-md-11 col-sm-11 center-div experience-wrap  sec-pad">
+							<h6>experience</h6>
+							<div class="exp-timeline-wrap">
+								<div class="row exp-timeline timeline-active">
+									<div class="col-xs-2">
+										<div class="timeline-st"></div>
+									</div>
+									<div class="col-xs-10 exp-content-wrap">
+										<div class="row">
+											<div class="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0s">
+												<div class="col-sm-3 duration"><span>AFEC / SIMPLON ,<br>Sep 2023t</span></div>
+												<div class="col-sm-9">
+													<span class="job-desn">DEVELOPPEUR ANGULAR</span>
+													<span class="job-loc">Together by Social Network - Réseau social d’entreprise permetant l’amélioration de l’ambiance de l’équipe. Paris
+													</span>
+													<p class="job-summary p-small">Développement avec ES6 / HTML / CSS Développement avec ANGULAR 16 Dévéloppement avec TypeScript Développement avec RXJS
+														Mise en place d’une Architecture Front-end Consommation d’un API REST avec HTTP Module Utilisation de ReactiveFormModule
+														Utilisation de la librairie Material
+														Gestion de Token
+														Responsive Mobile / Tablette Gestion des versions avec GITHUB</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row exp-timeline">
+									<div class="col-xs-2">
+										<div class="timeline-st"></div>
+									</div>
+									<div class="col-xs-10 exp-content-wrap">
+										<div class="row">
+											<div class="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.2s">
+												<div class="col-sm-3 duration"><span>
+													AFEC / SIMPLON <br>Sep 2023</span></div>
+												<div class="col-sm-9">
+													<span class="job-desn">DEVELOPPEUR Node JS</span>
+													<span class="job-loc">Together by Social Network - Réseau social d’entreprise permetant l’amélioration de l’ambiance de l’équipe. Paris
+
+													</span>
+													<p class="job-summary p-small">Développement d’API REST avec Node JS, Express Intégration de la base de donné MongoDB Utilisation de l’ORM Mongoose
+														Implémentation de la librairie JWT
+														Développement avec ES6 Architecture MVC Utilisation de Postman</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row exp-timeline">
+									<div class="col-xs-2">
+										<div class="timeline-st"></div>
+									</div>
+									<div class="col-xs-10 exp-content-wrap">
+										<div class="row">
+											<div class="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.4s">
+												<div class="col-sm-3 duration"><span>
+													Client - Demande de Projet <br> Aout 2023</span></div>
+												<div class="col-sm-9">
+													<span class="job-desn">DEVELOPPEUR Angular / Node JS
+													</span>
+													<span class="job-loc">WORK School - Site Web pour la gestion d’un groupes élèves. Paris
+													</span>
+													<p class="job-summary p-small">Développement d’API REST avec Node JS, Express Développement avec ES6 / HTML / CSS Développement avec ANGULAR 16
+														Utilisation de ReactiveFormModule
+														Utilisation de la librairie Material
+														Mise en place d’une Architecture Front-end</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row exp-timeline">
+									<div class="col-xs-2">
+										<div class="timeline-st"></div>
+									</div>
+									<div class="col-xs-10 exp-content-wrap">
+										<div class="row">
+											<div class="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.6s">
+												<div class="col-sm-3 duration"><span>Projet Oppenclassrooms <br>Juillet 2023</span></div>
+												<div class="col-sm-9">
+													<span class="job-desn">DEVELOPPEUR Angular
+													</span>
+													<span class="job-loc">FaceSnaps - Réseau de communication.Paris
+													</span>
+													<p class="job-summary p-small">Développement avec ES6 / HTML / CSS
+														Développement avec ANGULAR 16
+														Gestion et création de components
+														Gestion et création de Model/ Service/ Interface/ Guard... Gestion et création des observables
+														Gestion et création de Formulaires
+														Consommation d’API REST et requêtes HTTP Amélioration des performances avec le Lazy loading</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row exp-timeline">
+									<div class="col-xs-2">
+										<div class="timeline-st"></div>
+									</div>
+									<div class="col-xs-10 exp-content-wrap">
+										<div class="row">
+											<div class="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.6s">
+												<div class="col-sm-3 duration"><span>Client-DemandedeProjet <br>Juin 2023</span></div>
+												<div class="col-sm-9">
+													<span class="job-desn">DEVELOPPEUR JS Vanilla
+													</span>
+													<span class="job-loc">Restauration du Monde - Site Web e-commerce de commande de nourriture
+
+													</span>
+													<p class="job-summary p-small">
+														Développement avec ES6 / HTML / CSS Développement du panier.
+														Gestion et création des cartes
+														</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row exp-timeline">
+									<div class="col-xs-2">
+										<div class="timeline-st"></div>
+									</div>
+									<div class="col-xs-10 exp-content-wrap">
+										<div class="row">
+											<div class="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.6s">
+												<div class="col-sm-3 duration">Projet Oppenclassrooms <br> Juin 2023</span></div>
+												<div class="col-sm-9">
+													<span class="job-desn">
+														DEVELOPPEUR JS Vanilla
+													</span>
+													<span class="job-loc">Pièce Auto - Site vitrine dynamique de pièces automobiles.
+													</span>
+													<p class="job-summary p-small">Développement avec ES6 / HTML / CSS Développement du panier. Dévoloppement des focntionalité de filtre Gestion et création des cartes
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row exp-timeline">
+									<div class="col-xs-2">
+										<div class="timeline-st"></div>
+									</div>
+									<div class="col-xs-10 exp-content-wrap">
+										<div class="row">
+											<div class="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.6s">
+												<div class="col-sm-3 duration">Projet <br>Oppenclassrooms <br>Avril2023</span></div>
+												<div class="col-sm-9">
+													<span class="job-desn">INTEGRATEUR HTML / SASS
+													</span>
+													<span class="job-loc">OhMyFood - Site vitrine multi-page de restauration
+
+													</span>
+													<p class="job-summary p-small">
+														Développement avec HTML /SASS <br> Animation CSS
+														Integration HTML <br>
+														Gestion du style avec Sass</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row exp-timeline">
+									<div class="col-xs-2">
+										<div class="timeline-st"></div>
+									</div>
+									<div class="col-xs-10 exp-content-wrap">
+										<div class="row">
+											<div class="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.6s">
+												<div class="col-sm-3 duration"><span>Projet Oppenclassrooms <br>Mars2023</span></div>
+												<div class="col-sm-9">
+													<span class="job-desn">INTEGRATEUR HTML / CSS
+													</span>
+													<span class="job-loc">Booki - Site vitrine de réservation de chambres d’hotels
+													</span>
+													<p class="job-summary p-small">Développement avec HTML /CSS <br> Animation CSS <br>
+														Integration HTML <br>
+														Gestion du CSS avec les FLEX BOX</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row exp-timeline">
+									<div class="col-xs-2">
+										<div class="timeline-st"></div>
+									</div>
+									<div class="col-xs-10 exp-content-wrap">
+										<div class="row">
+											<div class="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.6s">
+												<div class="col-sm-3 duration"><span>Projet Studi <br> 2022</span></div>
+												<div class="col-sm-9">
+													<span class="job-desn">
+														WEB Designer
+													</span>
+													<span class="job-loc">Booki - Site vitrine de réservation de chambres d’hotels
+													</span>
+													<p class="job-summary p-small"> Utilsation de la  suite  Adobe <br>
+														Creation d'une iddentité Graphique <br>
+														Creation d'une Chartres Graphique <br>
+														Gestion et analyse d'un brief client
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row exp-timeline">
+									<div class="col-xs-2">
+										<div class="timeline-st"></div>
+									</div>
+									<div class="col-xs-10 exp-content-wrap">
+										<div class="row">
+											<div class="wow fadeInRight" data-wow-duration=".4s" data-wow-delay="0.6s">
+												<div class="col-sm-3 duration"><span>Auchan <br> 2021</span></div>
+												<div class="col-sm-9">
+													<span class="job-desn">Manager Froid
+													</span>
+													<span class="job-loc">Gestion l'équipe froid dans un supermarché
+													</span>
+													<p class="job-summary p-small">
+														gestion des resources humaines <br>
+														gestion des ressources commerciales <br>
+														poursuite d'objectif SMARR <br>
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<!--/Experience Sec-->
+						
+						<hr class="separater-hr"/>
+						
+						
+						
+						<hr class="separater-hr"/>
+						
+						<!--Achivement Sec-->
+						<section id="achivement_sec"  class="col-lg-10 col-md-11 col-sm-11 center-div achivement-wrap  sec-pad-top sec-pad-bottom-sm">
+							<h6>Distinction</h6>
+							<p class="wow fadeInUp" data-wow-duration=".4s">Les exploits sont disponibles pour tous tant que l'on s'en donne les moyens.</p>
+							<div class="achivement-list-wrap margin-top-40">
+								<ul class="row">
+									<li class="col-sm-6">
+										<ul>
+											<li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay="0s">
+												<span class="dash-pointer">-</span>
+												<span class="achive-pts">Diplômé 1er de mon école de théologie avec la totalité des points.</span>
+											</li>
+											<li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".4s"><span class="dash-pointer">-</span><span class="achive-pts">J'ai effectué une partie de ma scolarité en Allemagne à Berlin</span></li>
+										</ul>
+									</li>
+									<li class="col-sm-6">
+										<ul>
+											<li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay="0s"><span class="dash-pointer">-</span><span class="achive-pts">Meilleur résultat de mon lycée dans ma filière au BAC </span></li>
+											<li class="margin-bottom-xs wow fadeInUp" data-wow-duration=".4s" data-wow-delay=".4s"><span class="dash-pointer">-</span><span class="achive-pts">J'ai sauté une classe et j'ai eu la proposition de sauté une deuxième</span></li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</section>
+						<!--/Achivement Sec-->
+						
+						<hr class="separater-hr"/>
+						
+						<!--Contact Sec-->
+						<!-- <section id="contact_sec"  class="col-lg-10 col-md-11 col-sm-11 center-div contact-wrap sec-pad">
+							<h6>contact</h6>
+							<div data-ng-controller="ContactController" class="align-center wow fadeInUp" data-wow-duration=".4s">
+								<h3>Bonjour <span  data-ng-bind="formData.inputName||''"></span>, n'hésitez pas à m'écrire.</h3>
+								<div>
+									<form data-ng-submit="submit(contactform, $event)"  name="contactform"  method="post" class="row form-horizontal" role="form">
+										<div class="form-group input--hoshi col-sm-6" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
+											<div class="input-wrap">
+												<input autocomplete="off" data-ng-model="formData.inputName" type="text" class="form-control input__field input input__field--hoshi" id="inputName" name="inputName" placeholder="Name" required>
+												<label class="input__label input__label input__label--hoshi input__label--hoshi-color-1 input__label--hoshi input__label--hoshi-color-1" ></label>
+											</div>
+										</div>
+										<div class="form-group  input--hoshi col-sm-6" data-ng-class="{ 'has-error': contactform.inputEmail.$invalid && submitted }">
+											<div class="input-wrap">
+												<input autocomplete="off" data-ng-model="formData.inputEmail" type="email" class="form-control input input__field input__field--hoshi" placeholder="Email" id="inputEmail" name="inputEmail" required>
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
+											</div>
+										</div>
+										<div class="form-group  input--hoshi col-sm-12" data-ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
+											<div class="input-wrap">
+												<textarea data-ng-model="formData.inputMessage" class="form-control input input__field input__field--hoshi" rows="4" id="inputMessage" name="inputMessage" placeholder="message" required></textarea>
+												<label class="input__label input__label--hoshi input__label--hoshi-color-1"></label>
+											</div>
+										</div>
+										<div class="form-group col-sm-12">
+											<div class="align-center">
+												<button type="submit" class="btn btn-default" data-ng-disabled="submitButtonDisabled">
+												<span class="mask"></span>
+												<span>Envoyé un message</span>
+												</button>
+											</div>
+										</div>
+									</form>
+									<p data-ng-class="result">{{ resultMessage }}</p>
+								</div>
+							</div>
+							<div class="email-direct">
+								<p class="wow fadeInRight" data-wow-duration=".4s">Ou simplement par email<a href="mailto:j.ndolou@yahoo.com">j.ndolou@yahoo.com</a></p>
+							</div>
+						</section> -->
+						<!--Contact Sec-->
+						
+						<hr class="separater-hr"/>
+						
+						<!--Footer-->
+						<footer class="col-lg-10 col-md-11 col-sm-11 center-div contact-wrap  sec-pad">
+							<div class="row">
+								<div class="col-sm-6 available-wrap">
+									<span class="available-pointer"></span>
+									<span class="available-tag">Disponible pour des projets Freelance.</span>
+								</div>
+								<div class="col-sm-6">
+									<div class="social-icons-wrap float-right">
+										
+										<!--Social Icons-->
+										<!-- <ul class="social-icons float-right">
+											<li>
+												<a href="#" class="social-icon">
+												<span class="fa" data-hover="&#xf09a;">&#xf09a;</span>
+												</a>
+											</li>
+											<li>
+												<a href="#" class="social-icon">
+												<span class="fa" data-hover="&#xf099;">&#xf099;</span>
+												</a>
+											</li>
+											<li>
+												<a href="#" class="social-icon">
+												<span class="fa" data-hover="&#xf16e;">&#xf16e;</span>
+												</a>
+											</li>
+											<li>
+												<a href="#" class="social-icon">
+												<span class="fa" data-hover="&#xf16d;">&#xf16d;</span>
+												</a>
+											</li>
+										</ul> -->
+										<!--/Social Icons-->
+									
+									</div>
+									<div class="goto-top text-right float-right">
+										<a data-scroll href="#body">
+										<span data-hover="top">
+										top
+										</span>
+										</a>
+									</div>
+									<div class="copywrite-wrap text-right float-right">
+										<p class="copywrite">by <b> NdolouJacques &copy; 2023.</b> </b></p>
+									</div>
+								</div>
+							</div>
+						</footer>
+						<!--/Footer-->
+						
+					</div>
+					<!--/Main Content-->
+					
+				</div>
+			</div>
+		</div>
+		<!-- /Container -->
+		
+		<!-- Scripts -->
+		<script type="module">
+			// Import the functions you need from the SDKs you need
+			import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+			import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+			// TODO: Add SDKs for Firebase products that you want to use
+			// https://firebase.google.com/docs/web/setup#available-libraries
+
+			// Your web app's Firebase configuration
+			// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+			const firebaseConfig = {
+				apiKey: "AIzaSyCh0i09MvEAwgoTyllASUCxxChD4cZSfRc",
+				authDomain: "portfolio-f5aed.firebaseapp.com",
+				projectId: "portfolio-f5aed",
+				storageBucket: "portfolio-f5aed.appspot.com",
+				messagingSenderId: "958610490091",
+				appId: "1:958610490091:web:c23f9519b35dc7db76b4ae",
+				measurementId: "G-X9Q6LN43VT"
+			};
+
+			// Initialize Firebase
+			const app = initializeApp(firebaseConfig);
+			const analytics = getAnalytics(app);
+		</script>
+		<script>
+			document.addEventListener('DOMContentLoaded', function() {
+				const loadEl = document.querySelector('#load');
+				// // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+				// // The Firebase SDK is initialized and available here!
+				//
+				// firebase.auth().onAuthStateChanged(user => { });
+				// firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+				// firebase.firestore().doc('/foo/bar').get().then(() => { });
+				// firebase.functions().httpsCallable('yourFunction')().then(() => { });
+				// firebase.messaging().requestPermission().then(() => { });
+				// firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+				// firebase.analytics(); // call to activate
+				// firebase.analytics().logEvent('tutorial_completed');
+				// firebase.performance(); // call to activate
+				//
+				// // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+				try {
+					let app = firebase.app();
+					let features = [
+						'auth',
+						'database',
+						'firestore',
+						'functions',
+						'messaging',
+						'storage',
+						'analytics',
+						'remoteConfig',
+						'performance',
+					].filter(feature => typeof app[feature] === 'function');
+					loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+				} catch (e) {
+					console.error(e);
+					loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+				}
+			});
+		</script>
+
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/angular.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+		<script src="js/app.js"></script>
+		<script src="js/controllers.js"></script>
+		<script src="js/jquery.placeholder.js"></script>
+		<script src="js/smooth-scroll.js"></script>
+		<script src="js/countTo.js"></script>
+		<script src="js/jQuery.appear.js"></script>
+		<script src="js/isotope.js"></script>
+		<script src="js/typed.js"></script>
+		<script src="js/lightgallery-all.js"></script>
+		<script src="js/jquery.mousewheel.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/froogaloop2.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/init.js"></script>
+	</body>
+</html>
